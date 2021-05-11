@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <form>
+        <label class="label">Name</label><br>
+        <input class="field" type="name" placeholder="Enter your name">
+        <label class="label">Email</label><br>
+        <input class="field" type="mail-id" placeholder="Enter your Mail-Id">
+        <label class="label">Age<span class="age">(optional)</span></label><br>
+        <input class="field" type="number" placeholder="Enter your Age" min="1">
+        <label class="label">Which option best describes your current role?</label><br>
+        <select id="designation" class="field">
+            <option value="Student" selected>Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Full Time Jober">Full Time Jober</option>
+            <option value="other">other</option>
+        </select>
+        <label class="label">Would you recommend freeCodeCamp to a friend?</label><br>
+        <div>
+            <input type="radio" id="Definitely" name="gender" value="Definitely">
+            <label class="label1" for="Definitely">Definitely</label><br></div>
+        <div>
+            <input type="radio" id="MayBe" name="gender" value="MayBe">
+            <label class="label1" for="MayBe">MayBe</label><br></div>
+        <div>
+            <input type="radio" id="Not Sure" name="gender" value="Not Sure">
+            <label class="label1" for="Not Sure">Not Sure</label><br></div>
+
+        <label class="label">What is your favorite feature of freeCodeCamp?</label><br>
+        <select id="designation" class="field">
+            <option value="loreum" selected>Student</option>
+            <option value="ispusum">Teacher</option>
+            <option value="loreum-ispusum">Full Time Jober</option>
+            <option value="other">other</option>
+        </select>
+        <label class="label">What would you like to see improved? <span class="age">(Check all that
+                apply)</span></label><br>
+
+        <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Front-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">Back-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Graphic Designer</label><br></div>
+        <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Front-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">Back-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Graphic Designer</label><br></div>
+        <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Front-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">Back-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Graphic Designer</label><br></div>
+        <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Front-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">Back-End-Developer</label><br></div>
+
+        <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Graphic Designer</label><br></div>
+        <br>
+        <label class="label">Any comments or suggestions?</label><br>
+        <textarea class="field" placeholder="Enter your suggestion" rows="5" cols="40"></textarea>
+        <input  class="submit-button" type="submit" name="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-style: italic;
+    font-size: 20px;
+}
+h1,p{
+margin:10px;
+text-align: center;
+padding-top:30px;
+color: white;
+}
+
+h1{
+    padding-top:70px;
+    font-size: 65px;
+}
+
+body{
+    background: url(./back.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+form{
+    width:40%;
+    padding:50px;
+    margin: auto;
+    margin-top:50px;
+    background-color: rgba(27, 27, 50, 0.7);
+    border-radius: 10px;
+}
+.field{
+    padding:10px;
+    width:100%;
+    margin-top:5px;
+    border-radius: 5px;
+    border-style: none;
+    font-size:15px;
+    margin-bottom: 40px;
+
+}
+.label{
+    font-size:17px;
+    color: white;
+}
+
+.label1{
+    padding-top:10px;
+    width:100%;
+    margin-bottom:5px;
+    font-size:17px;
+    color: white;
+}
+.age{
+    font-size:14px;
+    margin-left:3px;
+}
+div{
+    margin-bottom:20px;
+    margin-top:15px;
+    color: white;
+  
+}
+.submit-button{
+    width:100%;
+    font-size: 20px;
+    margin-top:20px;
+    padding:10px;
+    color:white;
+    background-color:green;
+    border-style: none;
+    border-radius: 3px;
+}
+.submit-button:hover{
+    background-color: rgb(99, 4, 59);
+}
